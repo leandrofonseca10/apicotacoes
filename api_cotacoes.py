@@ -18,7 +18,7 @@ destino = "+14383042232"
 print(cotacao_dolar, cotacao_cad, cotacao_euro)
 
 
-if cotacao_cad > "3.69":
+if cotacao_cad < "3.69":
 
     client = Client(Account_SID, Auth_Token)
 
